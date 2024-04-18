@@ -1,0 +1,551 @@
+.relativ {
+  width: 100%;
+  height: 387px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.relativ .relativ__item {
+  width: 90%;
+  height: inherit;
+}
+.relativ .relativ__item .relative__top {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.relativ .relativ__item .relative__top h2 {
+  font-family: IRAN;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.relativ .relativ__item .relative__center {
+  width: 100%;
+  height: 80%;
+  border: 2px solid #f0f0f1;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper {
+  background-color: #f0f0f1;
+  border-radius: 20px;
+  display: flex;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 20px 0px 0px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;  
+  background-image: unset;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .first h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .first div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+  background-image: unset;
+
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .first div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+  background-image: unset;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .second h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .second div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .second div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  position: relative;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .third {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .third h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .third div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .third div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fifth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fifth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fifth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fifth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .sixth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .sixth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .sixth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .sixth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .seventh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .seventh h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .seventh div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .seventh div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eighth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eighth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eighth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eighth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .ninth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .ninth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .ninth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .ninth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .tenth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .tenth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .tenth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .tenth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eleventh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eleventh h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eleventh div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .eleventh div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .twelfth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .twelfth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .twelfth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .twelfth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .thirteenth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .thirteenth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .thirteenth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .thirteenth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourteenth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  row-gap: 12px;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourteenth h5 {
+  font-family: IRAN;
+  font-size: 13px;
+  font-weight: normal;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourteenth div {
+  width: 84px;
+  height: 84px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: #f0f0f1;
+  position: relative;
+}
+.relativ .relativ__item .relative__center .swiper-wrapper .fourteenth div img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  outline: unset;
+  object-fit: contain;
+  color: inherit;
+  border-radius: 0px;
+  margin-top: 10px;
+  overflow: hidden;
+}

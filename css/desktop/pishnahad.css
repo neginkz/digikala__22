@@ -1,0 +1,9 @@
+.pishnahad{
+    width: 100%;
+    height: 65px;
+    background-color: #EF3B50;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+}

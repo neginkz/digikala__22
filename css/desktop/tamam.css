@@ -1,0 +1,249 @@
+.tamam {
+  width: 100%;
+  height: 460px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.tamam .tamam__main {
+  width: 97%;
+  height: inherit;
+  border-radius: 10px;
+  padding-top: 77px;
+  border: 1px solid #f0f0f1;
+  display: block;
+}
+.tamam .tamam__main > p {
+  margin-top: -60px;
+  font-family: IRAN;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 5px;
+  margin-bottom: 27px;
+  margin-right: 20px;
+}
+.tamam .tamam__main .line__tamam {
+  display: block;
+  width: 70px;
+  height: 1px;
+  background-color: #ef394e;
+  margin-right: 20px;
+  margin-top: -20px;
+}
+.tamam .tamam__main .myTamam {
+  display: flex;
+}
+.tamam .tamam__main .myTamam .swiper-wrapper {
+  background-color: #f0f0f1;
+}
+.tamam .tamam__main .myTamam .tamam__one {
+  width: 192px;
+  height: 385.5px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.tamam .tamam__main .myTamam .tamam__one .tamam__slide {
+  width: 175px;
+  height: 361.5px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 4px;
+}
+.tamam .tamam__main .myTamam .tamam__one .tamam__slide .top__tamam {
+  width: inherit;
+  height: 26px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: IRAN;
+  color: #b12ba4;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tamam .tamam__main .myTamam .tamam__one .tamam__slide .center__tamam {
+  width: inherit;
+  height: 331.49px;
+}
+.tamam .tamam__main .myTamam .tamam__one .tamam__slide .center__tamam__topp {
+  width: 175px;
+  height: 150px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam__topp
+  img {
+  width: 150px;
+  height: 150px;
+  outline: unset;
+  border-radius: 0;
+  border-radius: 5px;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__one {
+  width: 175px;
+  height: 52px;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__one
+  h3 {
+  font-family: IRAN;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__two {
+  width: 176px;
+  height: 23.87px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__two
+  p {
+  font-family: IRAN;
+  font-size: 11px;
+  opacity: 0.7;
+  color: #ef394e;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__three {
+  width: 175px;
+  height: 63.63px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 4px;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__three
+  .tamam__center__three__one {
+  width: 100%;
+  height: 33.61px;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__three
+  .tamam__center__three__one
+  h5 {
+  width: 140px;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 15px;
+  column-gap: 3px;
+  color: black;
+  margin-top: -2px;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__three
+  .tamam__center__three__one
+  span {
+  height: 20px;
+  width: 33px;
+  font-size: 14px;
+  border-radius: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c60c31;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__three
+  .tamam__center__three__two {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: IRAN;
+  text-align: left;
+  padding-left: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.9;
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.tamam
+  .tamam__main
+  .myTamam
+  .tamam__one
+  .tamam__slide
+  .center__tamam
+  .tamam__center__forth {
+  width: 100%;
+  height: auto;
+  font-size: 11px;
+  text-align: left;
+  display: flex;
+  flex-flow: row;
+  color: #c60c31;
+  font-family: IRAN;
+}

@@ -1,0 +1,183 @@
+.montakhab {
+  width: var(--width);
+  height: 440px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.montakhab .fantastic__center {
+  width: 100%;
+  height: inherit;
+  background: #ef3a4f;
+  padding: 20px 0;
+  border-left: 2px solid #ef3a4f;
+}
+.montakhab .fantastic__center .first__fantastic {
+  background-color: blueviolet;
+}
+.montakhab .fantastic__center .first__fantastic div {
+  width: var(--width);
+  height: inherit;
+  padding-top: 20px;
+  background: #ef3a4f;
+}
+.montakhab .fantastic__center .first__fantastic div > svg {
+  width: 120px;
+  height: 120px;
+  margin-top: 40px;
+}
+.montakhab .fantastic__center .first__fantastic div img {
+  outline: unset;
+  width: 145px;
+  height: 145px;
+  margin-top: 20px;
+}
+
+.item__fantastic_one {
+  border-radius: 10px;
+}
+.item__fantastic_one .first_svg {
+  width: 123px;
+  height: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.item__fantastic .item {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap !important;
+  padding: 10px;
+}
+.item__fantastic .item .item__fantastic_first {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.item__fantastic .item .item__fantastic_first svg {
+  margin-left: 30px;
+  background-color: antiquewhite;
+}
+.item__fantastic .item .item__fantastic_second {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.item__fantastic .item .item__fantastic_second h5 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 14px;
+  font-family: BNAZANIN;
+}
+.item__fantastic .item .item__fantastic_second span {
+  font-family: BNAZANIN;
+  font-size: 10px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: whitesmoke;
+}
+.item__fantastic .item .item__fantastic_therd {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: BNAZANIN;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 13px;
+  opacity: 0.9;
+  text-decoration: line-through;
+}
+.item__fantastic .item .item__fantastic_first img {
+  all: unset;
+  width: 150px;
+  height: 150px;
+}
+.item__fantastic_one .item {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap !important;
+  padding: 10px;
+}
+.item__fantastic_one .item .item__fantastic_first {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.item__fantastic_one .item .item__fantastic_second {
+  display: block;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.item__fantastic_one .item .item__fantastic_second h5 {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  font-size: 14px;
+  font-family: BNAZANIN;
+}
+.item__fantastic_one .item .item__fantastic_second h4 {
+  font-family: IRAN;
+  font-weight: normal;
+  color: #3f4064;
+  font-size: 12px;
+  text-align: right;
+  
+}
+.item__fantastic_one .item .item__fantastic_second .second_h2 .second__svg{
+    width: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.item__fantastic_one .item .item__fantastic_second .second_h2 .second__svg svg{
+    margin-top: 5px;
+}
+.item__fantastic_one .item .item__fantastic_second .second_h2 h2{
+  font-family: IRAN;
+  font-weight: normal;
+  column-gap: 4px;
+  color: #62666d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 30px;
+  font-size: 11px;
+  justify-content: flex-start;
+  margin-left: 150px;
+}
+.item__fantastic_one .item .item__fantastic_second span {
+  font-family: BNAZANIN;
+  font-size: 10px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: red;
+  color: whitesmoke;
+}
+.item__fantastic_one .item .item__fantastic_therd {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: BNAZANIN;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 13px;
+  text-decoration: line-through;
+  flex-flow: column-reverse;
+  color: #c0c2c5;
+}
+.item__fantastic_one .item .item__fantastic_first img {
+  all: unset;
+  width: 150px;
+  height: 150px;
+}

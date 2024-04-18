@@ -1,0 +1,110 @@
+.digiclub {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+.digiclub .digiclub__item {
+  width: inherit;
+  height: initial;
+  background: linear-gradient(
+    90deg,
+    rgba(53, 166, 200, 1) 0%,
+    rgba(0, 114, 149, 1) 61%
+  );
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.digiclub .digiclub__item .digiclub__item_right {
+  width: 40%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.digiclub .digiclub__item .digiclub__item_right .logo {
+  margin-right: 30px;
+}
+.digiclub .digiclub__item .digiclub__item_left {
+  width: 60%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .right {
+  background-color: #ffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-right: 35px;
+}
+.digiclub .digiclub__item .digiclub__item_left .right span {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .right p {
+  font-family: IRAN;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .right img {
+  width: 168px;
+  height: 60px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .center {
+  background-color: #ffff;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.digiclub .digiclub__item .digiclub__item_left .center span {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .center p {
+  font-family: IRAN;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .center img {
+  width: 168px;
+  height: 60px;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .left {
+  background-color: #ffff;
+  border-top-left-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.digiclub .digiclub__item .digiclub__item_left .left span {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .left p {
+  font-family: IRAN;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.digiclub .digiclub__item .digiclub__item_left .left img {
+  width: 168px;
+  height: 60px;
+  margin-right: 5px;
+  border-radius: 5px;
+}

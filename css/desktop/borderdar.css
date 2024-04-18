@@ -1,0 +1,480 @@
+.grid {
+  width: 100%;
+  height: 417px;
+  margin-top: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.grid .grid__main {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid #e0e0e2;
+  border-radius: 16px;
+}
+.grid .grid__main .laptop {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 10px;
+  align-items: center;
+  border-left: 1px solid #e0e0e2;
+}
+.grid .grid__main .laptop .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .laptop .first h4 {
+  font-family: IRAN;
+  font-size: 16px;
+  font-weight: normal;
+}
+.grid .grid__main .laptop .first p {
+  font-family: IRAN;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.grid .grid__main .laptop .second {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .laptop .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .laptop .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .laptop .third {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.grid .grid__main .laptop .second .line {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  margin-bottom: -3px;
+}
+.grid .grid__main .laptop .second .line__two {
+  width: 1px;
+  height: auto;
+  background-color: #e0e0e2;
+  justify-content: center;
+}
+
+.grid .grid__main .laptop .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .laptop .third .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .laptop .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+}
+.grid .grid__main .laptop .forth a {
+  font-family: IRAN;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.grid .grid__main .laptop .forth a span {
+  margin-top: 5px;
+}
+.grid .grid__main .car {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 10px;
+  align-items: center;
+  border-left: 1px solid #e0e0e2;
+}
+.grid .grid__main .car .car__main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.grid .grid__main .car .car__main .car__first {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 50%;
+}
+.grid .grid__main .car .car__main .line__two {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 21px;
+}
+.grid .grid__main .car .car__main .line {
+  width: 1px;
+  height: auto;
+  background-color: #e0e0e2;
+}
+.grid .grid__main .car .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .car .first h4 {
+  font-family: IRAN;
+  font-size: 16px;
+  font-weight: normal;
+}
+.grid .grid__main .car .first p {
+  font-family: IRAN;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.grid .grid__main .car .car__main .second {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .car .car__main .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .car .car__main .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .car .third {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .car .car__main .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .car .car__main .third .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .car .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+}
+.grid .grid__main .car .forth a {
+  font-family: IRAN;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .car .forth a span {
+  margin-top: 5px;
+}
+.grid .grid__main .tablet {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 10px;
+  align-items: center;
+  border-left: 1px solid #e0e0e2;
+}
+.grid .grid__main .tablet .tablet__main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.grid .grid__main .tablet .tablet__main .tablet__first {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 50%;
+}
+.grid .grid__main .tablet .tablet__main .line__two {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: 21px;
+}
+.grid .grid__main .tablet .tablet__main .line {
+  width: 1px;
+  height: auto;
+  background-color: #e0e0e2;
+}
+.grid .grid__main .tablet .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .tablet .first h4 {
+  font-family: IRAN;
+  font-size: 16px;
+  font-weight: normal;
+}
+.grid .grid__main .tablet .first p {
+  font-family: IRAN;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.grid .grid__main .tablet .tablet__main .second {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .tablet .tablet__main .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .tablet .tablet__main .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .tablet .third {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .tablet .tablet__main .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .tablet .tablet__main .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .tablet .third {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .tablet .tablet__main .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .tablet .tablet__main .third .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .tablet .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 120px;
+  margin-top: 10px;
+}
+.grid .grid__main .tablet .forth a {
+  font-family: IRAN;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .tablet .forth a span {
+  margin-top: 5px;
+}
+.grid .grid__main .speaker {
+  width: 25%;
+  height: inherit;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 10px;
+  align-items: center;
+}
+.grid .grid__main .speaker .first {
+  width: 100%;
+  height: auto;
+  padding-right: 22px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .speaker .first h4 {
+  font-family: IRAN;
+  font-size: 16px;
+  font-weight: normal;
+}
+.grid .grid__main .speaker .first p {
+  font-family: IRAN;
+  font-size: 11px;
+  font-weight: normal;
+  opacity: 0.5;
+}
+.grid .grid__main .speaker .second {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+  row-gap: 5px;
+}
+.grid .grid__main .speaker .second .second__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .speaker .second .second__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .speaker .third {
+  width: 292px;
+  height: 146px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.grid .grid__main .speaker .second .line {
+  width: 292px;
+  height: 1px;
+  background-color: #e0e0e2;
+  margin-bottom: -3px;
+}
+.grid .grid__main .speaker .second .line__two {
+  width: 1px;
+  height: auto;
+  background-color: #e0e0e2;
+  
+}
+
+.grid .grid__main .speaker .third .third__one {
+  width: 145px;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .speaker .third .third__one img {
+  width: 129px;
+  height: 129px;
+  object-fit: contain;
+}
+.grid .grid__main .speaker .forth {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  margin-top: 160px;
+}
+.grid .grid__main .speaker .forth a {
+  font-family: IRAN;
+  text-decoration: none;
+  font-size: 12px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid .grid__main .speaker .forth a span {
+  margin-top: 5px;
+}

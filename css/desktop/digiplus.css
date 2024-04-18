@@ -1,0 +1,149 @@
+.digiplus {
+  width: 100%;
+  height: 390px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.digiplus .digiplus__item {
+  width: 100%;
+  height: inherit;
+  background-color: #941b80;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  border-radius: 20px;
+}
+
+.digiplus .digiplus__item .digiplus__item_right {
+  width: 30%;
+  height: 360px;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.digiplus .digiplus__item .digiplus__item_right span {
+  margin-top: 15px;
+  margin-left: 450px;
+  width: 500px;
+  height: 32px;
+}
+.digiplus .digiplus__item .digiplus__item_right p {
+  font-family: IRAN;
+  color: whitesmoke;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.digiplus .digiplus__item .digiplus__item_right .digiplus__item_right2 {
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid whitesmoke;
+  width: 105.41px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 13px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+.digiplus .digiplus__item .digiplus__item_right .digiplus__item_right2 p {
+  font-family: IRAN;
+  font-size: 13px;
+  margin-top: -3px;
+  margin-left: 50px;
+  color: whitesmoke;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3px;
+  display: flex;
+}
+.digiplus .digiplus__item .digiplus__item_right .digiplus__item_right2 p svg {
+  height: 24px;
+  width: 24px;
+  margin-left: -45px;
+  align-items: center;
+}
+.digiplus .digiplus__item .digiplus__item_right .digiplus__item_right3 {
+  display: flex;
+ width: 350px;
+  height: 230px;
+  margin-right: 60px;
+}
+.digiplus .digiplus__item .digiplus__item_right .digiplus__item_right3 img {
+  width: 350px;
+  height: 230px;
+}
+.digiplus .digiplus__item .digiplus__item_left {
+  width: 65%;
+  height: 360px;
+  background-color: #ffffff;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.digiplus .digiplus__item .digiplus__item_left .center{
+  width: 100%;
+  height: 20%;
+  display: block;
+}
+.digiplus .digiplus__item .digiplus__item_left .center h4{
+  width: 151px;
+  height: 33px;
+  margin-top: 16px;
+  font-family: IRAN;
+  margin-right: 16px;
+  font-weight: normal;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6px;
+}
+.digiplus .digiplus__item .digiplus__item_left .center h4 span{
+  margin-top: 4px;
+}
+.digiplus .digiplus__item .digiplus__item_left .second{
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-right: 770px;
+  margin-top: 15px;
+  display: flex;
+}
+.digiplus .digiplus__item .digiplus__item_left .second a{
+  text-decoration: none;
+  font-family: IRAN;
+  font-size: 12px;
+  color: #941b80;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digiplus .digiplus__item .digiplus__item_left .second a span{
+  margin-top: 5px;
+}
+.digiplus .digiplus__item .digiplus__item_left .bottom{
+width: 100%;
+height: 80%;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+column-gap: 20px;
+}
+.digiplus .digiplus__item .digiplus__item_left .bottom .first{
+  width: 116px;
+  height: 116px;
+  margin-right: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.digiplus .digiplus__item .digiplus__item_left .bottom .first img{
+  width: 116px;
+  height: 116px;
+}

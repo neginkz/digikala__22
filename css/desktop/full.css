@@ -1,0 +1,97 @@
+.full {
+    width: 100%;
+    height: 172px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 21px;
+  }
+  .full .full__center {
+    width: 100%;
+    height: inherit;
+  }
+  .secondd div {
+    width: 114px;
+    height: 166px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-radius: none;
+  }
+  .secondd div .full__top {
+    width:114px ;
+    height: 116px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+  }
+  .secondd div .full__bottom {
+    width: inherit;
+    height: 30%;
+  }
+  .secondd div img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 0;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  .secondd div h5 {
+    font-family: persian;
+    font-size: 12px;
+    color: #0c0c0c;
+    opacity: 0.8;
+    font-weight: lighter;
+  }
+  .firstt div {
+    width: 114px;
+    height: 166px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #F0F0F1;
+    border-radius: 12px;
+  }
+  .firstt div .full__top {
+    width: inherit;
+    height: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+  }
+  .firstt div .full__bottom {
+    width: inherit;
+    height: 30%;
+  }
+  .firstt div img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 0;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  .firstt div h5 {
+    font-family: persian;
+    font-size: 12px;
+    color: #0c0c0c;
+    font-weight: bold;
+  
+  }
+  .swiper-button-next {
+    color: #2b2b2b;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper-button-prev {
+    color: #2b2b2b;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

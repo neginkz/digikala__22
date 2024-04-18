@@ -1,0 +1,60 @@
+.hand {
+  width: 100%;
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.hand .hame {
+  width:90%;
+  height: inherit;
+  display: block;
+}
+.hand .hame .hand__top {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.hand .hame .hand__top h3 {
+  width: 222px;
+  height: 44px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: IRAN;
+  font-size: 20px;
+  font-weight: normal;
+}
+.hand .hame .hand__bottem{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.hand .hame .hand__bottem div{
+  width: 186px;
+  height: 134px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.hand .hame .hand__bottem div h5{
+  font-family: IRAN;
+  font-size: 12px;
+  font-weight: normal;
+
+}
+.hand .hame .hand__bottem img{
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}

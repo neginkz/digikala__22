@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+  border: 1px #e8e8e9 solid;
+  width: 25%;
+  border-radius: 10px;
+  font-family: IRAN;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  svg {
+    width: 150px;
+    height: 40px;
+  }
+  .vorood {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-family: IRAN;
+    h3 {
+      font-family: IRAN;
+    }
+    p {
+      font-size: 11px;
+      font-family: IRAN;
+      color: lightslategray;
+      font-weight: normal;
+    }
+    span {
+      color: #008eb2;
+      font-family: IRAN;
+    }
+    .login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 40px;
+      width: 100%;
+      font-family: IRAN;
+    }
+  }
+}
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+input[type="button"] {
+  width: 100%;
+  height: 40px;
+  background-color: #ef4056;
+  color: white;
+  font-size: 17px;
+  font-family: IRAN;
+  font-weight: bold;
+  border-radius: 10px;
+}

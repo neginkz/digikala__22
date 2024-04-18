@@ -1,0 +1,21 @@
+.banercenter {
+  width: 100%;
+  height: 245px;
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row wrap; 
+  justify-content: center; 
+}
+.banercenter .banercenter__one {
+  height: inherit;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.banercenter .banercenter__one img {
+  width: 322px;
+  height: inherit;
+  border-radius: 30px;
+}

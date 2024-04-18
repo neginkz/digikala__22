@@ -1,0 +1,24 @@
+.banerimg {
+    width: 100%;
+    height: 264px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .banerimg .banerimg__one {
+    height: inherit;
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;  
+    margin-left: 130px;
+    gap: 15px;
+  }
+  .banerimg .banerimg__one img {
+    width: 670px;
+    height: inherit;
+    border-radius: 30px;
+  }
